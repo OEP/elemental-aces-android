@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Elemental Aces</string>
+
+	<!-- Buttons and dialogs -->
+	<string name="label_login">Login</string>
+	<string name="label_search">Search</string>
+	<string name="label_create">I\'m new</string>
+	<string name="label_ok">OK</string>
+	<string name="label_loading">Loading...</string>
+	<string name="label_working">Working...</string>
+	<string name="label_retry">Retry</string>
+	<string name="label_save">Save</string>
+	<string name="label_cancel">Cancel</string>
+	<string name="label_changeAvatar">Change avatar</string>
+	<string name="label_myProfile">My profile</string>
+	
+	<string name="label_game_pending">Waiting on players</string>
+	<string name="label_game_completed">Completed</string>
+	<string name="label_nextup">Next up: %s</string>
+	<string name="label_lastplay">Last move: %s</string>
+	<string name="label_opponent">Opponent: %s</string>
+	
+	<string name="label_invalidvalue">Invalid value!</string>
+	<string name="label_playing">You\'re playing!</string>
+	<string name="label_invited">You\'re invited!</string>
+	
+	<string name="label_request_friend">Request friend</string>
+	<string name="label_accept_friend">Accept friend</string>
+	<string name="label_reject_friend">Reject friend</string>
+	
+	<string name="label_friend_requested">Requested</string>
+	<string name="label_friend_pending">Pending</string>
+	<string name="label_friend_active">Active</string>
+	<string name="label_no_nickname">Anonymous</string>
+	
+	<string name="label_logout">Logout</string>
+	
+	<string name="label_friend_accept">Accept Friend</string>
+	<string name="label_friend_reject">Reject Friend</string>
+	
+	<string name="label_friend_message">Message Friend</string>
+	<string name="label_friend_game_request">Request Game</string>
+	<string name="label_friend_remove">Remove Friend</string>
+	
+	<string name="label_game_add">New Game</string>
+	<string name="label_friend_search">Search</string>
+	
+	<string name="label_challenge">Challenge</string>
+	<string name="label_accept">Accept</string>
+	<string name="label_reject">Reject</string>
+	<string name="label_pending">Pending</string>
+	<string name="label_defriend">Defriend</string>
+	
+	<string name="label_games">Games</string>
+	<string name="label_friends">Friends</string>
+	<string name="label_score">Score: %d</string>
+	
+	
+	<string name="label_updating">Updating...</string>
+	
+    <string name="hint_username">Username</string> 
+    <string name="hint_new_password">New password</string> 
+    <string name="hint_new_password_confirm">New password (confirm)</string> 
+    <string name="hint_password">Password</string> 
+    <string name="hint_password_confirm">Password (confirm)</string> 
+    <string name="hint_enterSearchTerm">Email, nickname...</string>
+    
+    <string name="msg_challenge">Whom will you challenge?</string>
+    <string name="msg_invalid_move">Invalid move specified.</string>
+    <string name="msg_not_found">Could not find message ID \'%x\'.</string>
+    <string name="msg_required_fields_missing">All fields are required to be filled out.</string>
+    <string name="msg_confirm_password">Please confirm your password.</string>
+    <string name="msg_setup_error">There was a setup error!</string>
+    <string name="msg_communicating">Communicating with server...</string>
+    
+    <string name="msg_friend_accepted">Friend accepted!</string>
+    
+    <string name="msg_internal_error">Worddit had a boo-boo. Please pretend it didn\'t happen and try again.</string>
+    <string name="msg_successful_action">Action completed successfully.</string>
+    <string name="msg_fail_connection">There was a problem with the network connection.</string>
+    <string name="msg_fail_bad_username">Invalid username or password.</string>
+    <string name="msg_fail_user_exists">That user already exists.</string>
+    <string name="msg_search_no_results">Your search has no results.</string>
+    <string name="msg_unknown_response">Could not understand server response. It\'s not your fault! Try again later.</string>
+    <string name="msg_your_turn">Your turn!</string>
+    <string name="msg_your_turn_long">Elemental Aces is waiting on your move.</string>
+    
+    <string name="msg_friendshipRequested">Your friendship is requested.</string>
+    <string name="msg_friendshipPending">Your friend invitation is pending.</string>
+    <string name="msg_friendshipActive">You are friends.</string>
+    <string name="msg_friendshipInactive">You are not friends.</string>
+</resources>

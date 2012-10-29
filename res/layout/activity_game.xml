@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="top"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/game_opponent_score"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Opponent score" />
+
+        <Gallery
+            android:id="@+id/game_opponent_cards"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:spacing="10dp" >
+        </Gallery>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="bottom"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Gallery
+                android:id="@+id/game_player_cards"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:spacing="10dp" />
+
+            <Button
+                android:id="@+id/game_throw"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Throw!" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/game_player_score"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Player score" />
+
+    </LinearLayout>
+
+</LinearLayout>
